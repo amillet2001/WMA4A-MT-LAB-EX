@@ -3,6 +3,7 @@ body {
     background: rgb(24, 22, 22);
     padding: 10%;
     padding-top: 0;
+    padding-bottom: 5%;
 }
 
 .container {
@@ -88,4 +89,11 @@ body {
 
 .contact-container {
     width: 100%;
+}
+
+button {
+    background-color: darkslategrey;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
 }
