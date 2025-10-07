@@ -1,0 +1,32 @@
+header{
+  padding: 0%;
+  text-decoration: line-through;
+}
+
+h2{
+  position: relative;
+}
+
+.container{
+  text-align: center;
+}
+body{
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(0, 17, 255);
+  text-align: justify;
+
+}
+
+div{
+  background-color: antiquewhite;
+  text-align: left;
+  margin:2px ;
+  text-align: left;
+
+}
+
+label
+ {
+ text-align: center;
+}

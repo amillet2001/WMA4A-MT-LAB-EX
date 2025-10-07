@@ -1,0 +1,105 @@
+   body{
+    background-color: beige;
+   }
+   
+   
+   .Con1{
+        height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+
+        .details{
+            display: flex;
+            flex-direction: column;
+
+            p{
+                font-family:monospace;
+                font-size:2rem;
+            }
+            h1{
+                font-family:monospace;
+                font-size: 4rem;
+            }
+        }
+        .image-con{
+            img{
+            border-radius:50%;
+            border:1px solid black;
+            }
+        }
+    }
+    .Con2{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        font-family: monospace;
+
+        h2{
+            font-size: 3rem;
+        }p{
+            font-size: 1.5rem;
+        }
+    }.Con3{
+        height: 50vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: monospace;
+
+        h2{
+            font-size:3rem;
+        }
+
+        .Skills{
+            width: 90%;
+            height: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            
+        }.skill{
+            border: 1px solid gray;
+            padding:20px;
+            min-width: 20%;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+    }.Con4{
+        height: 100vh;
+        font-family: monospace;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        h2{
+            font-size: 3.5rem;
+        }
+
+        .proj-Con{
+                border: 1px solid gray;
+                padding: 30px;
+                border-radius: 20px;
+            img-Con{
+
+                img{
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+            p{
+                font-size: 1.3rem;
+            }
+        }
+    }.Con5{
+        border: 1px solid darkgray;
+        background: gray;
+        font-family: monospace;
+        padding: 10px;
+        border-radius: 20px;
+    }

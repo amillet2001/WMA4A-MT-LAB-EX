@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign-up Page</title>
+  <link rel="stylesheet" href="style-CAYME.css" />
+</head>
+<body>
+
+    <div class="signup-container">
+        <h2>Create an Account</h2>
+
+        <img src="ImgFolder/saynup.png" alt="Image" class="signupImg"/>
+
+        <form id="signup">
+            <div class="input">
+                <label for="fname">Full Name: </label>
+                <input type="text" id="fname" name="fname" required/>         
+            </div>
+
+            <div class="input">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required/>
+            </div>
+
+            <div class="input">
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" required/>
+            </div>
+
+            <div class="input">
+                <label for="conPass">Confirm Password: </label>
+                <input type="password" id="conPass" name="conPass" required/>
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="script-CAYME.js"></script>
+</body>
+</html>
