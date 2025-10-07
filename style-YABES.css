@@ -1,0 +1,104 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg, #000, #5e0000);
+    color: #111;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header {
+    background: linear-gradient(120deg, #000, #2b2a2d);
+    color: #ff2d2d;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    color: #ff2d2d;
+    text-shadow: 0 0 8px #8b3030, 0 0 8px #8b3030, 0 0 25px rgba(135, 30, 30, 0.608);
+    transition: text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+header h1:hover {
+    transform: scale(1.05);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff2d2d;
+}
+
+#about, #skills, #projects, #contact {
+    background: linear-gradient(120deg, #000, #2b2a2d);
+    color: #fff;
+    padding: 60px 10%;
+    border: 5px solid #ff2d2d;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(135, 30, 30, 0.608);
+    margin: 40px auto;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    text-align: center;
+}
+
+#about:hover, #projects:hover, #skills:hover, #contact:hover {
+    transform: scale(1.02);
+}
+
+.project-images img {
+    width: 300px; 
+    height: auto;  
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #ff2d2d;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: none;
+    z-index: 1000;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#scrollTopBtn:hover {
+    background-color: #ff5555;
+    transform: scale(1.15);
+}
