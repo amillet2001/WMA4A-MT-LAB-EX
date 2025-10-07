@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Sign Up</h1>
+        <form id="sign-up-form">
+            <div class="input-group">
+                <label for="name">Full Name: </label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group">
+                <label for="username">Username or Email:</label>
+                <input id="username" type="text" placeholder="Enter your username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input id="confirm-password" type="password" placeholder="Confirm password" required>
+                <span class="error" id="error-message"></span>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
