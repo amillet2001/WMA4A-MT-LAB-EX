@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+.container img {
+    width: 50px;
+    border-radius: 100%;
+}
+
 .container {
   background-color: #ffffff;
   padding: 40px 30px;
