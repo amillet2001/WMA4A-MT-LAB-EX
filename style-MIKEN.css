@@ -1,0 +1,144 @@
+ * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 100%;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      background-color: #121212;
+      color: beige;
+    }
+
+    header {
+      width: 100%;
+      position: fixed;
+      background-color: transparent;
+      height: 7vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid rgb(41, 40, 40);
+      backdrop-filter: blur(10px);
+      padding: 1rem;
+    }
+    header button{
+        padding: 0.5rem;
+        background-color: aquamarine;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 50%;
+      margin: 0 auto;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    main {
+      width: 100%;
+      height: 100%;
+    }
+    section {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .home-page h6 {
+      font-size: 1.5rem;
+    }
+    .home-page h1 {
+      font-size: 3rem;
+    }
+    .home-page h4 {
+      font-size: 1.75rem;
+      float: right;
+    }
+
+    .about_page {
+      width: 90%;
+    }
+    .about_container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+       
+    }
+    .aboutTitle{
+        font-size: 2rem;
+    }
+    .aboutText p{
+       text-align: justify;
+       width: 90%;
+       margin: 0 auto;
+       font-size: 1.25rem;
+       line-height: 24px;
+        
+    }
+    .aboutImage img{
+        height: 60vh;
+    }
+    .skill_page{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+    }
+    
+    .technical h1{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+    }
+    .technical ul .sub{
+        margin-left: 2rem;
+    }
+    .technical ul li{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .proj_page{
+        width: 90%;
+        
+        
+    }
+
+    .projTitle{
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .projOne{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+    .projOne img{
+        width: 30vw;
+    }
+ 
+     .projTwo{
+          display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .projTwo img{
+        width: 30vw;
+    }
+    .proj_des p{
+        width: 50%;
+    }
+    .contact_page{
+        text-align: center;
+        width: 90%;
+   
+    }
