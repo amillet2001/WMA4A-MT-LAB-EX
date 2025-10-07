@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width:320px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+    font-weight:bold;
+    color:darkslateblue;
+}
+label{
+    font-size:15px;
+    margin-top:10px;
+    display:block;
+    color:darkslategray;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    height: 36px;
+    margin: 6px 0 14px 0;
+    padding: 0 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3 ease;
+}
+input:focus{
+    border-color:darkslateblue;
+    outline: none;
+}
+button {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: seagreen;
+}
+#messageBox {
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  display: none;
+}
+
+#messageBox.success {
+  display: block;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+#messageBox.error {
+  display: block;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+.login-icon{
+    display:block;
+    margin: 0 auto 15px auto;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
