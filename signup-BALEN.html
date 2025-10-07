@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="style-BALEN.css" />
+  <script src="script-BALEN.js" defer></script>
+</head>
+<body>
+  <div class="main_ctn">
+    <div class="form_ctn">
+        <h2>Signup Form</h2>
+        <div class="form_holder">
+            <img src="my_melody.png" alt="my_melody" class="my_melody">
+            <form onsubmit="onSubmit(event)">
+                <br/>
+                <!-- Full Name -->
+                <label for="fullname">Full Name</label><br/>
+                <input type="text" id="fullname" placeholder="Enter your full name" required /><br/><br/>
+                <!-- Email -->
+                <label for="email">Email</label><br />
+                <input type="email" id="email" placeholder="Enter your email" required /><br/><br/>
+                <!-- Password -->
+                <label for="pass">Password</label><br/>
+                <input type="password" id="pass" placeholder="Enter your password" required /><br/><br/>
+                <!-- Confirm Password -->
+                <label for="c_pass">Confirm Password</label><br/>
+                <input type="password" id="c_pass" placeholder="Re-enter your password" required /><br/><br/>
+                <!-- Submit button -->
+                <button type="submit" class="submit_btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
