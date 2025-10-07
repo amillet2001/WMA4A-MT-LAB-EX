@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    background: rgb(24, 22, 22);
+    padding: 10%;
+    padding-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#portfolio {
+    text-align: center;
+    color: white;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-container img {
+    height: 250px;
+    width: 250px;
+    border-radius: 16px;
+}
+
+.profile-container h2 {
+    text-align: center;
+    color: white;
+}
+
+.about-container,
+.skill-container,
+.project-container,
+.contact-container {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+#about-skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.about-container,
+.skill-container {
+    height: 200px;
+    width: 50%;
+}
+
+.project-container {
+    width: 100%;
+}
+
+.project-container h2 {
+    text-align: center;
+}
+
+.Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.project {
+    background-color: darkslategrey;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+#projects {
+    height: 200px;
+    width: 250px;
+}
+
+.contact-container {
+    width: 100%;
+}
