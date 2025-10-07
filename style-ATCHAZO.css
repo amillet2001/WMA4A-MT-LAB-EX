@@ -1,0 +1,141 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(beach.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Card */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form spacing */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Input focus */
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Validation states */
+input.valid {
+    border-color: #4caf50;
+}
+
+input.invalid {
+    border-color: #f44336;
+}
+
+/* Helper text */
+.message {
+    font-size: 12px;
+    margin-top: 5px;
+    min-height: 18px;
+}
+
+/* Message colors */
+.message.error {
+    color: #f44336;
+}
+
+.message.success {
+    color: #4caf50;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #5568d3;
+}
+
+/* Success section (hidden) */
+.success-message {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Success text */
+.success-message h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    color: #666;
+}
+
+/* Checkmark badge */
+.checkmark {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #4caf50;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Insert check symbol */
+.checkmark::after {
+    content: '✓';
+}

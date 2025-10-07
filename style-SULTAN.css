@@ -6,8 +6,8 @@ body h1, h2, h3, p, ul, li {
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FFF8F0; /* very light warm background */
-    color: #3B2F2F; /* dark brown for text */
+    background-color: #FFF8F0; 
+    color: #3B2F2F; 
     line-height: 1.6;
     padding: 20px;
 }
@@ -141,4 +141,24 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+#fun-feature {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#colorToggleBtn {
+  background-color: #7E2302;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#colorToggleBtn:hover {
+  background-color: #A0522D;
 }

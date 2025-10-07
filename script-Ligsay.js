@@ -1,0 +1,1 @@
+const greet = () => { alert("Thank you for visiting") }
