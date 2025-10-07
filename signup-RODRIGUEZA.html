@@ -4,26 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signup Form</title>
-  <link rel="stylesheet" href="style-Pineda.css">
+  <link rel="stylesheet" href="style-PRODRIGUEZA.css">
 </head>
 <body>
-  <h2>Signup Form</h2>
-  <form id="signupForm">
-    <label for="fullname">Full Name:</label>
-    <input type="text" id="fullname" required>
+  <div class="container">
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+      
+      <div class="image-section">
+        <label for="profileImage">Profile Image:</label>
+        <input type="file" id="profileImage" accept="image/*">
+        <img id="previewImage" src="" alt="Image Preview" style="display:none;">
+      </div>
+      
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" placeholder="Enter your full name" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password" required>
 
-    <label for="confirmPassword">Confirm Password:</label>
-    <input type="password" id="confirmPassword" required>
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" placeholder="Confirm password" required>
 
-    <button type="submit">Submit</button>
-  </form>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 
-  <script src="script-Pineda.js"></script>
+  <script src="script-RODRIGUEZA.js"></script>
 </body>
 </html>
