@@ -1,0 +1,15 @@
+body{
+  justify-content: center;
+  padding: 10px;
+  background-color: bisque;
+  text-align: center;
+}
+
+div{
+  background-color: aqua;
+  margin: auto;
+  width: 200px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10%;
+}

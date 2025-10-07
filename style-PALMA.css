@@ -1,0 +1,264 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0b071c, #1b103a, #241b55);
+  color: #f9f9f9;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  text-align: center;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 50px;
+}
+
+nav ul li a {
+  color: #cfcafc;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05em;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #a78bfa;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 8%;
+}
+
+.text-section {
+  flex: 1;
+  text-align: center;
+  animation: fadeInLeft 1.2s ease;
+}
+
+.intro {
+  font-size: 1.1em;
+  color: #bba9ff;
+}
+
+.highlight {
+  color: #a78bfa;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.subtext {
+  margin-top: 18px;
+  color: #d2d2d2;
+  max-width: 480px;
+  font-size: 1.05em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About Section */
+.about {
+  padding: 90px 8%;
+  background: #151429;
+  text-align: center;
+}
+
+.about h2 {
+  color: #b79df9;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: start;
+}
+
+.info-card {
+  background: #1d1b3a;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.info-card.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.info-card h3 {
+  color: #a78bfa;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  border-bottom: 2px solid #a78bfa;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.info-card p {
+  font-size: 1.05em;
+  color: #e6e6e6;
+  margin: 8px 0;
+}
+
+.skills-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.skills-list li {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 6px 0;
+}
+
+/* ==== PROJECTS SECTION ==== */
+.projects {
+  background: #111;
+  padding: 90px 8%;
+  color: #fff;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.2rem;
+  color: #b79df9;
+  margin-bottom: 50px;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  background: #1a1a1a;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(169, 124, 255, 0.2);
+}
+
+.project-image {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+.project-info {
+  flex: 1;
+  text-align: left;
+}
+
+.project-info h3 {
+  color: #a78bfa;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.project-info p {
+  color: #d5d5d5;
+  line-height: 1.7;
+  font-size: 1.05em;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 90px 8%;
+  background: linear-gradient(135deg, #1a1532, #221a46);
+}
+
+.contact h2 {
+  color: #b79df9;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #ccc;
+  margin-bottom: 30px;
+  font-size: 1.05em;
+}
+
+.socials a {
+  color: #cbb9ff;
+  font-size: 1.7em;
+  margin: 0 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-5px);
+  color: #a78bfa;
+}
+
+/* Footer */
+.footer {
+  background: #100e20;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@media (max-width: 850px) {
+  .hero-content, .project-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-info {
+    text-align: center;
+  }
+
+  .project-image {
+    width: 200px;
+  }
+}

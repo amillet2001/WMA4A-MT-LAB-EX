@@ -1,0 +1,187 @@
+:root {
+  --bg-d: #1a1a2e;
+  --bg-l: #16213e;
+  --border-d: #4a4a68;
+  --ac: #a29bfe;
+  --ac-hover: #8179e0;
+  --txt-w: #ffffff;
+  --txt-l: #e0e0e0;
+  --txt-m: #a0a0b4;
+  --fnt-m: Georgia, "Times New Roman", Garamond, serif;
+}
+
+body {
+  font-family: var(--fnt-m);
+  background-color: var(--bg-d);
+  color: var(--txt-l);
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.cont {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--bg-l);
+  padding: 30px;
+  border-radius: 10px;
+  border: 5px solid var(--border-d);
+}
+
+header {
+  text-align: center;
+  border-bottom: 5px solid var(--border-d);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3em;
+  color: var(--txt-w);
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1.5em;
+  color: var(--txt-m);
+  margin: 5px 0 0;
+  font-weight: normal;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: var(--ac);
+  border-bottom: 1px solid var(--border-d);
+  padding-bottom: 10px;
+}
+
+.skillCont {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skillCol {
+  flex: 1;
+}
+
+.skillCol h4 {
+  color: var(--txt-m);
+  margin-top: 0;
+}
+
+.skillList {
+  list-style: none;
+  padding: 0;
+}
+
+.skillList li {
+  background-color: var(--border-d);
+  color: var(--txt-l);
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.proj {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.projInfo {
+  flex: 1;
+}
+
+.projInfo h4 {
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+}
+
+.proj a {
+  color: var(--txt-w);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.proj a:hover {
+  text-decoration: underline;
+  color: var(--ac);
+}
+
+.projInfo p {
+  margin: 0;
+}
+
+.projBtn {
+  display: inline-block;
+  background-color: var(--ac);
+  color: var(--bg-l);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  border: none;
+  font-size: 1em;
+}
+
+.projBtn:hover {
+  background-color: var(--ac-hover);
+  color: var(--txt-w);
+}
+
+#changeBtn {
+  background-color: var(--ac);
+  color: var(--bg-l);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: var(----fnt-m);
+  transition: all 0.3s ease;
+}
+
+#changeBtn:hover {
+  background-color: var(--ac-hover);
+  color: var(--txt-w);
+}
+
+.contactLinks a {
+  margin-right: 15px;
+  font-weight: bold;
+  color: var(--ac);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactLinks a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+img {
+  border-radius: 50%;
+  border: solid 5px;
+  border-color: white;
+}
+
+headerCon {
+  display: flex;
+}
