@@ -3,27 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="style-ATCHAZO.css">
 </head>
 <body>
     <div class="container">
-    <form action="submit" method="post">
-    <label for="fullname">Full Name:</label><br>
-    <input type="text" id="fullname" name="fullname" required><br><br>
+        <div id="formContainer">
+            <h2>Create Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required minlength="3">
+                    <div class="message" id="nameMessage"></div>
+                </div>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="message" id="emailMessage"></div>
+                </div>
 
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                    <div class="message" id="passwordMessage"></div>
+                </div>
 
-    <label for="confirm_password">Confirm Password:</label><br>
-    <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    <div class="message" id="confirmMessage"></div>
+                </div>
 
-    <button type="submit">Submit</button>
-    
-    </form>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="success-message" id="successMessage">
+            <div class="checkmark"></div>
+            <h2>Thank You!</h2>
+            <p>Your account has been created successfully.</p>
+            <p id="userGreeting"></p>
+        </div>
     </div>
+
+    <script src="script-ATCHAZO.js"></script>
 </body>
 </html>

@@ -1,143 +1,141 @@
-:root{
-    --bg-overlay: rgba(0,0,0,0.35);
-    --card-bg: rgba(255,255,255,0.96);
-    --primary: #007BFF;
-    --primary-dark: #0056b3;
-    --muted: #6b6b6b;
-    --radius: 10px;
-    --gap: 0.9rem;
-    --max-width: 420px;
-    --shadow: 0 6px 24px rgba(0,0,0,0.12);
-    --focus-ring: 0 0 0 4px rgba(0,123,255,0.12);
-}
-
-*,
-*::before,
-*::after{ box-sizing: border-box; }
-
-html,body{
-    height: 100%;
+/* Reset */
+* {
     margin: 0;
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #222;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Background with a subtle overlay for legibility */
-body{
-    background: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url("beach.jpg") center/cover no-repeat fixed;
+/* Page layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(beach.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 2rem;
+    align-items: center;
+    padding: 20px;
 }
 
-/* Card container */
-.container{
+/* Card */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
     width: 100%;
-    max-width: var(--max-width);
-    background: var(--card-bg);
-    padding: 1.6rem;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    align-items: stretch;
-    margin: 0 auto;
+    max-width: 400px;
 }
 
-/* Header */
-h1{
-    margin: 0;
-    font-size: 1.4rem;
+/* Heading */
+h2 {
     text-align: center;
-    color: #111;
-    letter-spacing: -0.01em;
+    color: #333;
+    margin-bottom: 30px;
 }
 
-/* Paragraph / helper text */
-p{
-    margin: 0;
-    color: var(--muted);
-    line-height: 1.5;
-    font-size: 0.95rem;
-    padding: 0 0 0.2rem 0;
-    text-align: center;
-}
-
-/* Form layout */
-form{
-    margin-top: 0.5rem;
-    display: grid;
-    gap: var(--gap);
+/* Form spacing */
+.form-group {
+    margin-bottom: 20px;
 }
 
 /* Labels */
-label{
-    font-size: 0.9rem;
-    color: #222;
-    margin-bottom: 0.25rem;
+label {
     display: block;
+    margin-bottom: 8px;
+    color: #555;
 }
 
 /* Inputs */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea,
-select{
+input {
     width: 100%;
-    padding: 0.7rem 0.85rem;
-    font-size: 0.95rem;
-    border: 1px solid #d7d7d7;
-    border-radius: 8px;
-    background: #fff;
-    transition: border-color 160ms ease, box-shadow 160ms ease, transform 120ms ease;
-    outline: none;
-    box-shadow: inset 0 1px 0 rgba(0,0,0,0.02);
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
-/* Focus state for accessibility */
-input:focus,
-textarea:focus,
-select:focus{
-    border-color: var(--primary);
-    box-shadow: var(--focus-ring);
+/* Input focus */
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Validation states */
+input.valid {
+    border-color: #4caf50;
+}
+
+input.invalid {
+    border-color: #f44336;
+}
+
+/* Helper text */
+.message {
+    font-size: 12px;
+    margin-top: 5px;
+    min-height: 18px;
+}
+
+/* Message colors */
+.message.error {
+    color: #f44336;
+}
+
+.message.success {
+    color: #4caf50;
 }
 
 /* Button */
-button{
-    display: inline-block;
-    background: linear-gradient(180deg,var(--primary),var(--primary-dark));
-    color: #fff;
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #667eea;
+    color: white;
     border: none;
-    padding: 0.7rem 1rem;
-    font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    align-self: center;
-    min-width: 120px;
-    transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms;
-    box-shadow: 0 6px 18px rgba(0,123,255,0.16);
+    margin-top: 10px;
 }
 
-/* Hover / active / focus styles */
-button:hover{ transform: translateY(-2px); filter: brightness(1.03); }
-button:active{ transform: translateY(0); }
-button:focus{ box-shadow: var(--focus-ring); outline: none; }
-
-/* Small helper text / error styles */
-.small{
-    font-size: 0.85rem;
-    color: var(--muted);
+/* Button hover */
+button:hover {
+    background-color: #5568d3;
 }
 
-/* Responsive tweaks */
-@media (max-width: 420px){
-    body{ padding: 1rem; }
-    .container{ padding: 1rem; border-radius: 8px; }
-    h1{ font-size: 1.1rem; }
-    button{ width: 100%; min-width: 0; }
+/* Success section (hidden) */
+.success-message {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Success text */
+.success-message h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    color: #666;
+}
+
+/* Checkmark badge */
+.checkmark {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #4caf50;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Insert check symbol */
+.checkmark::after {
+    content: '✓';
 }
