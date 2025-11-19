@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Atchazo_transform.xsl"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Atchazo_schema.xsd">
+
+    <header name="JAKE CRIS N. ATCHAZO" title="Gardener / Student">
+        <contact>
+            <location>San Pedro Apartado, Alcala, Pangasinan</location>
+            <phone>0993-538-7283</phone>
+            <email>atchazoj6@gmail.com</email>
+        </contact>
+    </header>
+
+    <garden_profile level="68">
+        <info key="Born">October 24, 2004</info>
+        <info key="Citizenship">Filipino</info>
+        <info key="Status">Single</info>
+        <info key="Height">160 cm</info>
+        <info key="Weight">125 lbs</info>
+        <info key="Religion">Aglipay</info>
+        <info key="Languages">Filipino, English, Ilocano</info>
+    </garden_profile>
+
+    <abilities>
+        <section title="GARDENER ABILITIES">
+            <ability>Problem Solving &amp; Critical Thinking</ability>
+            <ability>Research and Analytics</ability>
+            <ability>Time Management</ability>
+            <ability>Adaptability &amp; Fast Learning</ability>
+        </section>
+        <section title="GARDENER TOOLS">
+            <ability>Network Configuration</ability>
+            <ability>Cybersecurity Fundamentals</ability>
+            <ability>IPv4 &amp; IPv6 Addressing</ability>
+            <ability>Android Development</ability>
+            <ability>Web Development</ability>
+        </section>
+    </abilities>
+
+    <hobbies title="GARDENER HOBBIES">
+        <activity>Reading Manhwa</activity>
+        <activity>Listening to Music</activity>
+        <activity>Online Gaming</activity>
+        <activity>Playing Badminton</activity>
+    </hobbies>
+
+    <education title="GARDENER GROWTH">
+        <period year_start="2022" year_end="Present" type="College">
+            <school name="Tarlac State University" location="San Isidro, Tarlac City, Philippines"/>
+        </period>
+        <period year_start="2020" year_end="2022" type="Senior High School">
+            <school name="San Pedro Apartado National High School" location="San Pedro Apartado, Alcala, Pangasinan"/>
+        </period>
+        <period year_start="2016" year_end="2020" type="Junior High School">
+            <school name="San Pedro Apartado National High School" location="San Pedro Apartado, Alcala, Pangasinan"/>
+        </period>
+        <period year_start="2010" year_end="2016" type="Elementary">
+            <school name="San Pedro Apartado Elementary School" location="San Pedro Apartado, Alcala, Pangasinan"/>
+        </period>
+    </education>
+</portfolio>
