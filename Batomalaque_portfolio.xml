@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Batomalaque_transform.xsl"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="Batomalaque_schema.xsd">
+
+    <student id="2025-01">
+        <name>
+            <first>Vance Levin</first>
+            <last>Batomalaque</last>
+        </name>
+
+        <contact>
+            <email>bvancelevin05@gmail.com</email>
+            <photo>Batomalaque_images/batomalaque.jpg</photo>
+        </contact>
+
+        <skills>
+            <skill>HTML</skill>
+            <skill>CSS</skill>
+            <skill>JavaScript</skill>   
+            <skill>React JS</skill>
+        </skills>
+
+        <project>
+            <title>VisioLearn Quiz Generator</title>
+            <year>2025</year>
+                        <images>
+    <img>Batomalaque_images/img1.png</img>
+    <img>Batomalaque_images/img2.png</img>
+    <img>Batomalaque_images/img3.png</img>
+</images>
+        </project>
+    </student>
+
+</portfolio>
