@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dayao_transform.xsl"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="dayao_schema.xsd">
+
+    <student>
+        <firstname>Carl Rham Jhay</firstname>
+        <lastname>Dayao</lastname>
+        <course>Web and Mobile Applications</course>
+        <yearlevel>4th Year</yearlevel>
+    </student>
+
+    <skills>
+        <skill>HTML</skill>
+        <skill>CSS</skill>
+        <skill>JavaScript</skill>
+        <skill>Java</skill>
+    </skills>
+
+    <contact>
+        <email>dayaorhamjhay@gmail.com</email>
+        <phone>0912-345-678</phone>
+    </contact>
+
+</portfolio>
