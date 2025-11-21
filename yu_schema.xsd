@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="portfolio">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="profile" type="profileType"/>
+                <xsd:element name="skills" type="skillsType"/>
+                <xsd:element name="experiences" type="experiencesType"/>
+                <xsd:element name="timeline" type="timelineType"/>
+                <xsd:element name="contact" type="contactType"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="profileType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="tagline" type="xsd:string"/>
+            <xsd:element name="description" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="skillsType">
+        <xsd:sequence>
+            <xsd:element name="skill" type="skillType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="skillType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="experiencesType">
+        <xsd:sequence>
+            <xsd:element name="leadership" type="leadershipType"/>
+            <xsd:element name="creative" type="creativeType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="leadershipType">
+        <xsd:sequence>
+            <xsd:element name="position" type="xsd:string"/>
+            <xsd:element name="institution" type="xsd:string"/>
+            <xsd:element name="details" type="xsd:string"/>
+            <xsd:element name="projects" type="projectsType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="projectsType">
+        <xsd:sequence>
+            <xsd:element name="project" type="projectType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="projectType">
+        <xsd:sequence>
+            <xsd:element name="title" type="xsd:string"/>
+            <xsd:element name="tech" type="xsd:string"/>
+            <xsd:element name="summary" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="creativeType">
+        <xsd:sequence>
+            <xsd:element name="position" type="xsd:string"/>
+            <xsd:element name="institution" type="xsd:string"/>
+            <xsd:element name="year" type="xsd:string"/>
+            <xsd:element name="works" type="worksType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="worksType">
+        <xsd:sequence>
+            <xsd:element name="work" type="workType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="workType">
+        <xsd:sequence>
+            <xsd:element name="title" type="xsd:string"/>
+            <xsd:element name="software" type="xsd:string"/>
+            <xsd:element name="summary" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="timelineType">
+        <xsd:sequence>
+            <xsd:element name="school" type="schoolType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="schoolType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="level" type="xsd:string"/>
+            <xsd:element name="location" type="xsd:string"/>
+            <xsd:element name="years" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="contactType">
+        <xsd:sequence>
+            <xsd:element name="message" type="xsd:string"/>
+            <xsd:element name="platform" type="xsd:string" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>
