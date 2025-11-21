@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="yabes_transform.xsl"?>
+
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                  xsi:noNamespaceSchemaLocation="yabes_schema.xsd">
+
+    <student>
+        <name>Shina B. Yabes</name>
+        <age>21</age>
+        <course>Information Technology</course>
+        <yearLevel>4</yearLevel>
+        <email>shinayabes@gmail.com</email>
+        <phone>+63 9158842183</phone>
+
+        <aboutMe>
+            A motivated and adaptable professional with a passion for creativity, problem-solving, and delivering high-quality outcomes. Committed to continuous growth and contributing effectively to projects that require strategic thinking, innovation, and collaboration.
+        </aboutMe>
+
+        <personalInfo>
+            <address>Concepcion, Tarlac, Philippines</address>
+            <birthdate>February 11, 2004</birthdate>
+            <status>Single</status>
+            <citizenship>Filipino</citizenship>
+            <languages>English, Filipino</languages>
+        </personalInfo>
+
+        <skills>
+            <skill>Adaptability</skill>
+            <skill>Time Management</skill>
+            <skill>Problem Solving &amp; Critical Thinking</skill>
+            <skill>Organization</skill>
+            <skill>Emotional Intelligence</skill>
+        </skills>
+    </student>
+
+</studentPortfolio>
