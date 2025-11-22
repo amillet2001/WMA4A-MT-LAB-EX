@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mangune_transform.xsl"?>
+
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="mangune_schema.xsd">
+
+    <student>
+        <firstname>Mary Jairelle</firstname>
+        <lastname>Mangune</lastname>
+        <course>BSIT</course>
+        <year>2025</year>
+    </student>
+
+    <skills>
+        <skill>JavaScript</skill>
+        <skill>HTML</skill>
+        <skill>CSS</skill>
+        <skill>XML</skill>
+        <skill>Dart</skill>
+    </skills>
+
+    <projects>
+        <project>
+            <title>TechSageSymposium</title>
+            <description>A Technology Event Website Landing Page</description>
+            <year>2024</year>
+        </project>
+    </projects>
+
+</portfolio>
