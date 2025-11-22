@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <xs:element name="studentPortfolio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student" type="studentType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="studentType">
+    <xs:sequence>
+      <xs:element name="name" type="nameType"/>
+      <xs:element name="contact" type="contactType"/>
+      <xs:element name="studentID" type="IDType"/>
+      <xs:element name="summary" type="xs:string" minOccurs="0"/>
+      <xs:element name="education" type="educationType" minOccurs="0"/>
+      <xs:element name="skills" type="skillsType" minOccurs="0"/>
+      <xs:element name="awards" type="awardsType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="nameType">
+    <xs:sequence>
+      <xs:element name="first" type="xs:string"/>
+      <xs:element name="last" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="contactType">
+    <xs:sequence>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="phone" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="IDType">
+    <xs:sequence>
+      <xs:element name="studID" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="educationType">
+    <xs:sequence>
+      <xs:element name="degree" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="level" type="xs:string"/>
+            <xs:element name="school" type="xs:string"/>
+            <xs:element name="year" type="xs:gYear" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="skillsType">
+    <xs:sequence>
+      <xs:element name="skill" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="awardsType">
+    <xs:sequence>
+      <xs:element name="award" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="issuer" type="xs:string" minOccurs="0"/>
+            <xs:element name="year" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

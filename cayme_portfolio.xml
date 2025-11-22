@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cayme_transform.xsl"?>
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="cayme_schema.xsd">
+
+  <student>
+    <name>
+      <first>Yna Grace</first>
+      <last>Cayme</last>
+    </name>
+
+    <contact>
+      <email>graceyna1@gmail.com</email>
+      <phone>0956-253-9644</phone>
+    </contact>
+
+    <studentID>
+      <studID>2022300191</studID>
+    </studentID>
+
+    <summary>
+      A passionate student who's willing to learn and broaden knowledge in this emerging technology era.
+    </summary>
+
+    <education>
+      <degree>
+        <level>Bachelor of Science in Information Technology</level>
+        <school>Tarlac State University</school>
+      </degree>
+    </education>
+
+    <skills>
+      <skill>HTML</skill>
+      <skill>CSS</skill>
+      <skill>JavaScript</skill>
+      <skill>Git</skill>
+      <skill>GitHub</skill>
+    </skills>
+
+    <awards>
+      <award>
+        <title>Consistent Dean's Lister</title>
+        <issuer>Tarlac State University</issuer>
+        <year>2022-2024</year>
+      </award>
+    </awards>
+
+  </student>
+
+</studentPortfolio>
