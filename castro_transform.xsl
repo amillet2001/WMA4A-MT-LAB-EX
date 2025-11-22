@@ -4,7 +4,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Castro Activity 1</title>
+        <title>Castro Activity 2</title>
       </head>
       <body>
         <h1>Student Portfolio</h1>
@@ -35,3 +35,4 @@
     </html>
   </xsl:template>
 </xsl:stylesheet>
+
