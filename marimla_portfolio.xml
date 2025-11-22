@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="marimla_transform.xsl"?>
+
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="marimla_schema.xsd">
+
+    <student>
+        <name>John Michael C. Marimla</name>
+        <course>BSIT-WMA 4A</course>
+        <age>21</age>
+        <year>4</year>
+
+        <skills>
+            <skill>Java</skill>
+            <skill>HTML</skill>
+            <skill>JS</skill>
+            <skill>CSS</skill>
+            <skill>PHP</skill>
+        </skills>
+
+        <projects>
+            <project>
+                <title>MEOWMATES</title>
+                <description>A Cat Health and Tips Blog</description>
+            </project>
+
+            <project>
+                <title>REVIO</title>
+                <description>A Reviewer Material Generator with Study Techniques</description>
+            </project>
+        </projects>
+    </student>
+
+</portfolio>
