@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DelaCruz_transform.xsl"?>
+<studentPortfolio xsi:noNamespaceSchemaLocation="DelaCruz_schema.xsd">
+    <student>
+        <name>
+            <firstName>Andrei</firstName>
+            <lastName>Dela Cruz</lastName>
+        </name>
+        <studentNumber>2022300546</studentNumber>
+        <studentEmail>a.delacruz00546@student.tsu.edu.ph</studentEmail>
+        <course>
+            <program>Bachelor of Science in Information Technology</program>
+            <major>Web and Mobile Application</major>
+            <year>4th Year</year>
+            <section>WMA-4A</section>
+        </course>
+        <achievements>
+            <certificate>CISCO 1 &amp; 2 Certificate</certificate>
+            <award>Amazing Race Winner: Black Panthers</award>
+            <award>Nabuhay &amp; Dipa Patay</award>
+        </achievements>
+    </student>
+</studentPortfolio>
+
+
