@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rodrigueza_transform.xsl"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="rodrigueza_schema.xsd">
+
+    <profile>
+        <studentID>2025-0921</studentID>
+        <firstname>Loraine</firstname>
+        <lastname>Rodrigueza</lastname>
+        <tagline>Innovating Accessible Solutions Through Technology</tagline>
+        <program>BS Information Technology</program>
+        <yearLevel>3</yearLevel>
+        <contact>
+            <email>lorainerodrigueza7@example.com</email>
+        </contact>
+    </profile>
+
+    <showcase>
+        <project>
+            <title>Voice-Enabled Assessment System</title>
+            <summary>A system designed for partially sighted students, enabling hands-free quiz navigation through voice commands.</summary>
+            <year>2025</year>
+        </project>
+
+        <project>
+            <title>File Manager and Question Generator App</title>
+            <summary>An integrated file manager tool that generates accessible quizzes for visually impaired learners.</summary>
+            <year>2024</year>
+        </project>
+    </showcase>
+
+    <skills>
+        <skill level="advanced">Web Development</skill>
+        <skill level="advanced">UI/UX Design</skill>
+        <skill level="intermediate">XML/XSD/XSLT</skill>
+        <skill level="intermediate">JavaScript</skill>
+        <skill level="beginner">Python</skill>
+    </skills>
+
+    <academicBackground>
+        <education level="college">
+            <school>Tarlac State University</school>
+            <yearStart>2022</yearStart>
+            <yearEnd>Present</yearEnd>
+            <program>BS Information Technology</program>
+        </education>
+
+        <education level="seniorHighSchool">
+            <school>Dapdap Senior High School</school>
+            <yearStart>2020</yearStart>
+            <yearEnd>2022</yearEnd>
+            <strand>ICT</strand>
+        </education>
+
+        <education level="juniorHighSchool">
+            <school>Dapdap High School</school>
+            <yearStart>2016</yearStart>
+            <yearEnd>2020</yearEnd>
+        </education>
+
+        <education level="elementary">
+            <school>Dapdap Resettlement Elementary School</school>
+            <yearStart>2010</yearStart>
+            <yearEnd>2016</yearEnd>
+        </education>
+    </academicBackground>
+
+</portfolio>
