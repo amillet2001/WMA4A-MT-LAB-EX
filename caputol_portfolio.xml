@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="caputol_transform.xsl"?>
+<studentPortfolio xsi:noNamespaceSchemaLocation="caputol_schema.xsd">
+    <student>
+
+
+        <info>
+            <fullName>Leewell M. Caputol</fullName>
+            <studentNumber>2022600998</studentNumber>
+            <studentEmail>l.caputol00668@student.tsu.edu.ph</studentEmail>
+            <about>
+                Leewell Caputol began as an ordinary student with an extraordinary fascination for systems, logic, and the unseen forces that power the digital realms. His early encounters with technology awakened a spark that would later grow into full-fledged mastery.
+            </about>
+        </info>
+
+
+        <attributes>
+            <hp>20</hp>
+            <mana>100</mana>
+            <guild>Tarlac State University — Red Hawks</guild>
+        </attributes>
+
+
+        <course>
+            <program>Bachelor of Science in Information Technology</program>
+            <major>Web and Mobile Application</major>
+            <year>4th Year</year>
+            <section>WMA-4A</section>
+        </course>
+
+
+        <playerStats>
+            <level>49</level>
+            <class>Full-Stack Explorer</class>
+            <specialization>Game-Based Learning</specialization>
+            <skills>
+                <skill>React + Vite — Intermediate Spellcaster</skill>
+                <skill>React Native + Expo — Mobile Conjuror</skill>
+                <skill>Node.js + Express +20 — Backend Forging</skill>
+                <skill>HTML/CSS/JavaScript/TypeScript — Frontend Tuning +12</skill>
+            </skills>
+        </playerStats>
+
+      
+        <inventory>
+            <item>Coffee Flask of Infinite Energy</item>
+            <item>Debugging Toolkit Mk. III</item>
+            <item>Laptop of Eternal Compilation</item>
+        </inventory>
+
+
+        <projects>
+            <proj>DevLab — A Gamified Learning Platform for Full-Stack Web Development Utilizing NLP</proj>
+            <proj>Synthetic Archives — A Digital Museum for LAIN</proj>
+            <proj>DevLab ServerForge — Back-End Server for DevLab</proj>
+        </projects>
+
+  
+        <futureProj>
+            <fProj>LifeQuest — A Gamified Quest-Based To-Do Adventure</fProj>
+            <fProj>Reflectify — A Rogue-Like Reviewer System</fProj>
+        </futureProj>
+
+    </student>
+</studentPortfolio>

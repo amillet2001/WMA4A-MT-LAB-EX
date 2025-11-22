@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="studentPortfolio">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="student">
+          <xs:complexType>
+            <xs:sequence>
+
+       
+              <xs:element name="info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fullName" type="xs:string"/>
+                    <xs:element name="studentNumber" type="xs:string"/>
+                    <xs:element name="studentEmail" type="xs:string"/>
+                    <xs:element name="about" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+    
+              <xs:element name="attributes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="hp" type="xs:integer"/>
+                    <xs:element name="mana" type="xs:integer"/>
+                    <xs:element name="guild" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+              <xs:element name="course">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="program" type="xs:string"/>
+                    <xs:element name="major" type="xs:string"/>
+                    <xs:element name="year" type="xs:string"/>
+                    <xs:element name="section" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+              <xs:element name="playerStats">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="level" type="xs:integer"/>
+                    <xs:element name="class" type="xs:string"/>
+                    <xs:element name="specialization" type="xs:string"/>
+
+                    <xs:element name="skills">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="skill" type="xs:string" minOccurs="4" maxOccurs="4"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+              <xs:element name="inventory">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="item" type="xs:string" minOccurs="3" maxOccurs="3"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+              <xs:element name="projects">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="proj" type="xs:string" minOccurs="3" maxOccurs="3"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+      
+              <xs:element name="futureProj">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fProj" type="xs:string" minOccurs="2" maxOccurs="2"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
