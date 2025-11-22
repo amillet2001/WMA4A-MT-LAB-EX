@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portfolio [
+<!ELEMENT portfolio (name, title, location, about, skills, education, experience, projects, contact)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT skills (skill+)>
+<!ELEMENT skill (#PCDATA)>
+<!ELEMENT education (entry+)>
+<!ELEMENT entry (year, course, school)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT school (#PCDATA)>
+<!ELEMENT experience (job+)>
+<!ELEMENT job (position, company, description)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT projects (project+)>
+<!ELEMENT project (project_name, details)>
+<!ELEMENT project_name (#PCDATA)>
+<!ELEMENT details (#PCDATA)>
+<!ELEMENT contact (email?)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<?xml-stylesheet type="text/xsl" href="torres_transform.xsl"?>
+<student_portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                   xsi:noNamespaceSchemaLocation="torres_schema.xsd">
+    
+    <student_info>
+        <personal_details>
+            <student_name> Aivahn B. Torres</student_name>
+            <course> Bachelor of Science in Information Technology</course>
+            <year_level> 4th Year</year_level>
+            <email> aivahnt@gmail.com</email>
+            <phone> +639669326428</phone>
+            <address>
+                <street> Concepcion</street>
+                <city>Tarlac</city>
+                <country>Philippines</country>
+            </address>
+        </personal_details>
+        
+        <academic_background>
+            <gpa> 1.70</gpa>
+            <units_completed> 160</units_completed>
+            <honors> Dean's Lister</honors>
+        </academic_background>
+    </student_info>
+    
+    <skills>
+        <technical_skills>
+            <tech_skill category="Programming">
+                <skill_name>Java</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="Programming">
+                <skill_name>C#</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="Web Development">
+                <skill_name>HTML/CSS</skill_name>
+                <proficiency>Advanced</proficiency>
+            </tech_skill>
+            <tech_skill category="Web Development">
+                <skill_name>JavaScript</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="Database">
+                <skill_name>MySQL</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="Tools">
+                <skill_name>Git</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="Frameworks">
+                <skill_name>React.js</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="Mobile Development">
+                <skill_name>React Native</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+            <tech_skill category="API">
+                <skill_name>REST API</skill_name>
+                <proficiency>Intermediate</proficiency>
+            </tech_skill>
+        </technical_skills>
+        
+        <soft_skills>
+            <soft_skill>Team Leadership</soft_skill>
+            <soft_skill>Problem Solving</soft_skill>
+            <soft_skill>Time Management</soft_skill>
+            <soft_skill>Communication</soft_skill>
+            <soft_skill>Adaptability</soft_skill>
+            <soft_skill>Critical Thinking</soft_skill>
+            <soft_skill>Collaboration</soft_skill>
+        </soft_skills>
+    </skills>
+    
+    <projects>
+        <project>
+            <project_title>SyntaxSensei</project_title>
+            <description>An AI-based Java learning tool providing real-time syntax guidance for students</description>
+            <technologies>
+                <technology>Java</technology>
+                <technology>REST API</technology>
+                <technology>JavaFX</technology>
+            </technologies>
+            <date_completed>2024-09-10</date_completed>
+            <status>In Progress</status>
+        </project>
+        
+        <project>
+            <project_title>Movie Review Blog</project_title>
+            <description>A static website to review and rate Filipino movies, featuring genre categories and comment section</description>
+            <technologies>
+                <technology>HTML</technology>
+                <technology>CSS</technology>
+            </technologies>
+            <date_completed>2024-08-15</date_completed>
+            <status>Completed</status>
+        </project>
+        
+        <project>
+            <project_title>Flight Booking System</project_title>
+            <description>A VB.NET application to manage flight reservations with automatic calculations for passengers</description>
+            <technologies>
+                <technology>VB.NET</technology>
+                <technology>RichTextBox</technology>
+                <technology>ComboBox</technology>
+            </technologies>
+            <date_completed>2024-07-05</date_completed>
+            <status>Completed</status>
+        </project>
+    </projects>
+    
+    <contact_info>
+        <github>https://github.com/Aivahn</github>
+        <linkedin>https://www.linkedin.com/in/aivahn-torres/</linkedin>
+        <portfolio>https://myprofile.ph/AivahnTorres</portfolio>
+    </contact_info>
+    
+</student_portfolio>
