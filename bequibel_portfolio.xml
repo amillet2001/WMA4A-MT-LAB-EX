@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bequibel_transform.xsl"?>
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="bequibel_schema.xsd">
+  <student>
+    <name>
+      <first>Filson John</first>
+      <last>Bequibel</last>
+    </name>
+    <contact>
+      <email>filsonbequibel1124@gmail.com</email>
+    
+      <address>
+      
+        <city>La Paz, Tarlac</city>
+        <country>Philippines</country>
+      </address>
+    </contact>
+    <studentID>
+      <studID>2022300124</studID>
+    </studentID>
+
+    <summary>Passionate front end developer and student working on adaptive UI for small businesses</summary>
+    <education>
+      <degree>
+        <level>Bachelor of Science in Information Technology</level>
+        <school>Tarlac State University San Isidro Campus</school>
+        <year>2025</year>
+      </degree>
+    </education>
+    <skills>
+      <skill level="advanced">HTML</skill>
+      <skill level="advanced">CSS</skill>
+      <skill level="advanced">JavaScript</skill>
+      <skill level="intermediate">React</skill>
+      <skill level="intermediate">Tailwind CSS</skill>
+    </skills>
+    <projects>
+      <project id="p1">
+        <title>Revio</title>
+        <description>React flashcard app with folders, reviewers, and gamified mode</description>
+        <role>Frontend developer</role>
+        <link>https://revio-web-ebon.vercel.app</link>
+        <year>2025</year>
+      </project>
+      <project id="p2">
+        <title>SmartCart Research</title>
+        <description>Research project exploring adaptive shopping assistants for malls</description>
+        <role>Researcher</role>
+        <year>2024</year>
+      </project>
+    </projects>
+    <awards>
+      <award>
+        <title>Dean's List</title>
+        <year>2024</year>
+        <issuer>Tarlac State University</issuer>
+      </award>
+       <award>
+        <title>Dean's List</title>
+        <year>2023</year>
+        <issuer>Tarlac State University</issuer>
+      </award>
+       <award>
+        <title>Dean's List</title>
+        <year>2022</year>
+        <issuer>Tarlac State University</issuer>
+      </award>
+    </awards>
+  </student>
+</studentPortfolio>
