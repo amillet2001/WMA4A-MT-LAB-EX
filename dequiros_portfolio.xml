@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dequiros_transform.xsl"?>
+<student_portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dequiros_schema.xsd">
+    
+    <student>
+        <student_name>
+            <first_name>Allen </first_name>
+            <second_name>Icee </second_name>
+            <middle_name>Aquino </middle_name>
+            <last_name>Dequiros</last_name>
+        </student_name>
+        <student_number>2022300238</student_number>
+        <student_email>ai.dequiros00238@student.tsu.edu.ph</student_email>
+        <student_course>
+            <program>Bachelor of Science in Information Technology (BSIT)</program>
+            <specialization>Web and Mobile Application</specialization>
+            <year>4th Year</year>
+            <section>WMA-4A</section>
+        </student_course>
+        <college>College of Computer Studies (TSU)</college>
+        <date_of_birth>October 30, 2003</date_of_birth>
+        
+        <skills>
+            <skill>Cisco Certified Network Associate (CCNA 1 &amp; 2)</skill>
+            <skill>Java Programming</skill>
+            <skill>Web Development (HTML, CSS, JS)</skill>
+            <skill>Visual Basic</skill>
+            <skill>Multimedia (Krita, Capcut, IbisPaint)</skill>
+        </skills>
+
+    </student>
+    
+</student_portfolio>
