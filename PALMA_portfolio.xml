@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PALMA_transform.xsl"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="PALMA_schema.xsd">
+
+<student>
+<name>
+<first>Alysa</first>
+<middle>M.</middle>
+<last>Palma</last>
+</name>
+<email>alysapalma219@gmail.com</email>
+<contact>09636761829</contact>
+<birthday>April 09, 2003</birthday>
+<citizenship>Filipino</citizenship>
+<address>Concepcion, Tarlac</address>
+</student>
+
+<skills>
+<hardSkills>
+<skill>Front end development</skill>
+<skill>Web Development</skill>
+<skill>UI/UX Design</skill>
+</hardSkills>
+<softSkills>
+<skill>Flexibility</skill>
+<skill>Time Management</skill>
+<skill>Dedicated</skill>
+</softSkills>
+</skills>
+
+<education>
+<school>
+<name>Tarlac State University</name>
+<status>Present</status>
+<yearLevel>4th Year</yearLevel>
+<programMajor>BSIT Major in Web and Mobile Application</programMajor>
+</school>
+</education>
+</portfolio>
