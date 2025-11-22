@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="castro_transform.xsl"?>
-<studentPortfolio xsi:noNamespaceSchemaLocation="castro_schema.xsd">
+<studentPortfolio xsi:noNamespaceSchemaLocation="mayo_schema.xsd">
     <student>
         <name>
             <firstName>Mike</firstName>
@@ -22,5 +22,6 @@
         </achievements>
     </student>
 </studentPortfolio>
+
 
 
