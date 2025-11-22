@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ligsay_transform.xsl"?>
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ligsay_schema.xsd">
+    <student>
+        <name>
+            <firstName>Dave</firstName>
+            <secondName>Joshua</secondName>
+            <middleName>Corpuz</middleName>
+            <lastName>Ligsay</lastName>
+        </name>
+        <studentNumber>2022300585</studentNumber>
+        <studentEmail>dj.ligsay00585.tsu.edu.ph</studentEmail>
+        <course>
+            <program>Bachelor of Science in Information Technology</program>
+            <major>Web and Mobile Application</major>
+            <year>4th Year</year>
+            <section>WMA-4A</section>
+        </course>
+        <skills>
+            <skill>Java</skill>
+            <skill>HTML</skill>
+            <skill>CSS</skill>
+            <skill>JavaScript</skill>
+        </skills>
+        <achievements>
+            <certificate>CISCO 1 &amp; 2 Certificate</certificate>
+        </achievements>
+    </student>
+</studentPortfolio>
