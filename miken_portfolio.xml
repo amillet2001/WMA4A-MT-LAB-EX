@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="miken_transform.xsl"?>
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="miken_schema.xsd">
+  <personal>
+    <firstName>John Lloyd </firstName>
+    <lastName>Miken</lastName>
+    <email>mikenjohnlloyd@gmail.com</email>
+    <phone>09562463390</phone>
+    <summary>Computer science student focused on Web Development and Machine Learning.</summary>
+  </personal>
+
+  <education>
+    <degree>
+      <level>Bachelor of Science in Computer Science</level>
+      <institution>Tarlac State Universisty University</institution>
+      <startDate>2022</startDate>
+      <endDate>Present</endDate>
+     
+    </degree>
+  </education>
+
+  <courses>
+    <course>Machine Learning</course>
+    <course>Computer Vision</course>
+    <course>Human-Computer Interaction</course>
+    <course>Data Structures and Algorithms</course>
+  </courses>
+
+  <projects>
+    <project>
+      <title>SenyasFSL — Filipino Sign Language App</title>
+      <description>Gamified FSL learning app using MediaPipe and TensorFlow for gesture recognition.</description>
+      <link>https://iron-gizmo-471110-d0.web.app/app/home</link>
+      <year>2025</year>
+      <technologies>TensorFlow, MediaPipe, React Native, Firebase</technologies>
+    </project>
+
+    <project>
+      <title>Hand Landmark Extractor</title>
+      <description>Preprocessing tool that extracts landmarks and augments FSL dataset for model training.</description>
+      <year>2024</year>
+      <technologies>Python, OpenCV, MediaPipe</technologies>
+    </project>
+  </projects>
+
+  <skills>
+    <skill level="advanced">Python</skill>
+    <skill level="intermediate">TensorFlow</skill>
+    <skill level="intermediate">MediaPipe</skill>
+    <skill level="intermediate">React Native</skill>
+    <skill level="beginner">Docker</skill>
+  </skills>
+
+  <awards>
+    <award>
+      <title>Dean's Lister</title>
+      <year>2023</year>
+      <description>Recognized for academic excellence.</description>
+    </award>
+  </awards>
+
+</studentPortfolio>
