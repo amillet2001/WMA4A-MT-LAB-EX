@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Caones_transform.xsl"?>
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Caones_schema.xsd">
+    <student>
+
+        <name>
+            <firstName>Christian</firstName>
+            <secondName>Jay</secondName>
+            <lastName>Caones</lastName>
+        </name>
+        <studentNumber>2022000787</studentNumber>
+        <studentEmail>cj.caones00787@student.tsu.edu.ph</studentEmail>
+        <course>
+            <program>Bachelor of Science in Information Technology</program>
+            <major>Web and Mobile Application</major>
+            <year>4th Year</year>
+            <section>WMA-4A</section>
+        </course>
+        <achievements>
+            <cert>CISCO 1 &amp; 2 Certificate</cert>
+            <cert>Internetofthings</cert>
+            <cert>HourfCoding</cert>
+        </achievements>
+    </student>
+</studentPortfolio>
