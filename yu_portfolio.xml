@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="yu_transform.xsl"?>
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="yu_schema.xsd">
+
+    <profile>
+        <name>Maria Theresa Yu</name>
+        <tagline>Inspired to learn, build, and go beyond my limits.</tagline>
+        <description>
+            Information Technology student seeking hands-on experience
+            in software development, network management, and data analysis,
+            with a passion for applying technical knowledge to innovative projects.
+        </description>
+    </profile>
+
+    <skills>
+        <skill>JAVA</skill>
+        <skill>HTML, CSS, JS</skill>
+        <skill>Premiere Pro, Vegas Pro</skill>
+        <skill>After Effects, Illustrator</skill>
+        <skill>PC Basic Troubleshooting</skill>
+        <skill>Basic Networking Concepts</skill>
+        <skill>Problem Solving</skill>
+        <skill>Team Collaboration</skill>
+        <skill>Adaptability</skill>
+        <skill>Leadership</skill>
+        <skill>Creativity</skill>
+        <skill>Time Management</skill>
+    </skills>
+
+    <experiences>
+        <leadership>
+            <position>Team Lead – Academic Case Studies</position>
+            <institution>Tarlac State University</institution>
+            <details>
+                Led a group of students in designing and developing the first two software
+                projects from planning to execution, and a third project through team collaboration.
+            </details>
+
+            <projects>
+                <project>
+                    <title>Dynamic Website</title>
+                    <tech>HTML, CSS, JavaScript</tech>
+                    <summary>
+                        Built a responsive movie review website that is interactive for user engagement.
+                    </summary>
+                </project>
+
+                <project>
+                    <title>Banking System</title>
+                    <tech>Java</tech>
+                    <summary>
+                        Created a functional banking simulation system with basic transaction handling.
+                    </summary>
+                </project>
+
+                <project>
+                    <title>Car Rental System</title>
+                    <tech>Visual Basic.NET</tech>
+                    <summary>
+                        Designed and implemented a basic desktop application for rental management.
+                    </summary>
+                </project>
+            </projects>
+        </leadership>
+
+        <creative>
+            <position>Technical Editor – TV Broadcasting Team</position>
+            <institution>Cristo Rey High School</institution>
+            <year>2019</year>
+
+            <works>
+                <work>
+                    <title>Infomercials and Lower Thirds</title>
+                    <software>Premiere Pro, Vegas, After Effects</software>
+                    <summary>
+                        Produced and edited videos for TV Broadcasting Journalism using Adobe tools.
+                    </summary>
+                </work>
+
+                <work>
+                    <title>Shirt Design</title>
+                    <software>Illustrator</software>
+                    <summary>
+                        Designed custom shirts and graphics for personal projects.
+                    </summary>
+                </work>
+            </works>
+        </creative>
+    </experiences>
+
+    <timeline>
+        <school>
+            <name>CRWES</name>
+            <level>Cristo Rey West Elementary School</level>
+            <location>Capas, Tarlac</location>
+            <years>2010-2016</years>
+        </school>
+
+        <school>
+            <name>CRHS</name>
+            <level>Cristo Rey High School</level>
+            <location>Capas, Tarlac</location>
+            <years>2016-2020</years>
+        </school>
+
+        <school>
+            <name>CRSHS</name>
+            <level>Cristo Rey Senior High School</level>
+            <location>Capas, Tarlac</location>
+            <years>2020-2022</years>
+        </school>
+
+        <school>
+            <name>TSU</name>
+            <level>Tarlac State University</level>
+            <location>Tarlac City</location>
+            <years>Current</years>
+        </school>
+    </timeline>
+
+    <contact>
+        <message>Get in touch with me via social media or send me an email.</message>
+        <platform>Discord</platform>
+        <platform>Facebook</platform>
+        <platform>Email</platform>
+        <platform>Instagram</platform>
+    </contact>
+
+</portfolio>
