@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="villegas_transform.xsl"?>
+
+
+<portfolio>
+<student>
+    <firstname>Razzmin Dawn</firstname>
+    <lastname>Villegas</lastname>
+    <age>20</age>
+    <course>BSIT</course>
+    <yearlevel>4th Year</yearlevel>
+</student>
+
+<skills>
+    <skill>
+    <name>HTML</name>
+    </skill>
+
+    <skill>
+    <name>React</name>
+    </skill>
+
+    <skill>
+    <name>CSS</name>
+    </skill>
+
+    <skill>
+    <name>JS</name>
+    </skill>
+</skills>
+
+<hobbies>
+    <hobby>
+    <title>Digital Drawing</title>
+     </hobby>
+
+    <hobby>
+    <title>Reading</title>
+     </hobby>
+
+     <hobby>
+    <title>Listening to Music</title>
+     </hobby>
+</hobbies>
+</portfolio>
