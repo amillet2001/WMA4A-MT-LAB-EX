@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Root element -->
+    <xs:element name="student_portfolio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student_info" type="studentInfoType"/>
+                <xs:element name="skills" type="skillsType"/>
+                <xs:element name="projects" type="projectsType"/>
+                <xs:element name="certifications" type="certificationsType" minOccurs="0"/>
+                <xs:element name="contact_info" type="contactInfoType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Student Information Type -->
+    <xs:complexType name="studentInfoType">
+        <xs:sequence>
+            <xs:element name="personal_details" type="personalDetailsType"/>
+            <xs:element name="academic_background" type="academicBackgroundType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Personal Details Type -->
+    <xs:complexType name="personalDetailsType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="student_name" type="xs:string"/>
+            <xs:element name="course" type="xs:string"/>
+            <xs:element name="year_level" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+            <xs:element name="phone" type="xs:string"/>
+            <xs:element name="address" type="addressType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Address Type -->
+    <xs:complexType name="addressType">
+        <xs:sequence>
+            <xs:element name="street" type="xs:string"/>
+            <xs:element name="city" type="xs:string"/>
+            <xs:element name="country" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Academic Background Type -->
+    <xs:complexType name="academicBackgroundType">
+        <xs:sequence>
+            <xs:element name="gpa" type="xs:decimal"/>
+            <xs:element name="units_completed" type="xs:integer"/>
+            <xs:element name="honors" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Skills Type -->
+    <xs:complexType name="skillsType">
+        <xs:sequence>
+            <xs:element name="technical_skills" type="technicalSkillsType"/>
+            <xs:element name="soft_skills" type="softSkillsType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Technical Skills Type -->
+    <xs:complexType name="technicalSkillsType">
+        <xs:sequence>
+            <xs:element name="skill" type="skillType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Skill Type -->
+    <xs:complexType name="skillType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="proficiency" type="proficiencyType"/>
+        </xs:sequence>
+        <xs:attribute name="category" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Proficiency Type Restriction -->
+    <xs:simpleType name="proficiencyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Beginner"/>
+            <xs:enumeration value="Intermediate"/>
+            <xs:enumeration value="Advanced"/>
+            <xs:enumeration value="Expert"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Soft Skills Type -->
+    <xs:complexType name="softSkillsType">
+        <xs:sequence>
+            <xs:element name="skill" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Projects Type -->
+    <xs:complexType name="projectsType">
+        <xs:sequence>
+            <xs:element name="project" type="projectType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Project Type -->
+    <xs:complexType name="projectType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="technologies" type="technologiesType"/>
+            <xs:element name="date_completed" type="xs:date"/>
+            <xs:element name="status" type="projectStatusType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Technologies Type -->
+    <xs:complexType name="technologiesType">
+        <xs:sequence>
+            <xs:element name="technology" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Project Status Type Restriction -->
+    <xs:simpleType name="projectStatusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Completed"/>
+            <xs:enumeration value="In Progress"/>
+            <xs:enumeration value="Planning"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Certifications Type -->
+    <xs:complexType name="certificationsType">
+        <xs:sequence>
+            <xs:element name="certification" type="certificationType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Contact Information Type -->
+    <xs:complexType name="contactInfoType">
+        <xs:sequence>
+            <xs:element name="github" type="xs:string" minOccurs="0"/>
+            <xs:element name="linkedin" type="xs:string" minOccurs="0"/>
+            <xs:element name="portfolio" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
