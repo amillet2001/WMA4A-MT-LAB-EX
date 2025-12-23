@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mayo_transform.xsl"?>
+<studentPortfolio xsi:noNamespaceSchemaLocation="mayo_schema.xsd">
+    <student>
+        <name>
+            <firstName>Mike</firstName>
+            <secondName>Brian</secondName>
+            <lastName>Mayo</lastName>
+        </name>
+        <studentNumber>2022300131</studentNumber>
+        <studentEmail>mb.mayo00131@student.tsu.edu.ph</studentEmail>
+        <course>
+            <program>Bachelor of Science in Information Technology</program>
+            <major>Web and Mobile Application</major>
+            <year>4th Year</year>
+            <section>WMA-4A</section>
+        </course>
+        <achievements>
+            <cert>CISCO 1 &amp; 2 Certificate</cert>
+            <award>Tumae sa CSS &amp; CAFA Toilets</award>
+            <award>Sobrang wow</award>
+        </achievements>
+    </student>
+</studentPortfolio>
+
+
+
+
