@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mina_transform.xsl"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="mina_schema.xsd">
+
+    <fullname>Mark Denver D. Mina</fullname>
+    <age>21</age>
+    <address>Brgy. Castillo, Concepcion, Tarlac</address>
+    <course>BSIT specialized in Web and Mobile Application</course>
+    <yearlevel>4th Year</yearlevel>
+    <studentID>2022300493</studentID>
+    <email>minamarkdenver@gmail.com</email>
+    <phone>09951297546</phone>
+    <skills>
+        <skill>Time Management</skill>
+        <skill>Critical Thinking</skill>
+        <skill>Communication Skills</skill>
+    </skills>
+    <hobbies>
+        <hobby>Watching movies/series</hobby>
+        <hobby>Scrolling on Social Media Platforms</hobby>
+    </hobbies>
+    <motto>The best is yet to come.</motto>
+
+</student>
