@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ocampo_transform.xsl"?>
+
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="ocampo_schema.xsd">
+
+    <student>
+        <firstname>Kenzo Lian</firstname>
+        <lastname>Ocampo</lastname>
+        <course>BS Information Technology</course>
+        <year>4th Year</year>
+    </student>
+
+    <skills>
+        <skill>HTML and CSS</skill>
+        <skill>JavaScript</skill>
+        <skill>Java Programming</skill>
+        <skill>UI/UX Design</skill>
+    </skills>
+
+    <projects>
+        <project>
+            <title>SyntaxSensei</title>
+            <description>A web platform to help students in learning Java Programming</description>
+            <year>2025</year>
+        </project>
+    </projects>
+
+</portfolio>
