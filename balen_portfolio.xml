@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="balen_transform.xsl"?>
+<studentPortfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="balen_schema.xsd">
+
+    <student>
+        <personalInfo>
+            <name>Marianne</name>
+            <studentID>2022300478</studentID>
+            <email>mariannecbalen@gmail.com</email>
+            <program>BSIT-WMA</program>
+            <year>4th Year</year>
+            <about>
+                Hi, I'm Front-End Developer in the making. Currently studying Bachelor of Science in Information Technology, Major in Web and Mobile Application at Tarlac State University.
+            </about>
+            <about>
+                I love turning ideas into clean, responsive, and interactive web experiences. My main focus is on building modern UI/UX with HTML, CSS, JavaScript, and React, while also exploring design tools and frameworks like Tailwind CSS and Bootstrap.
+            </about>
+            <about>
+                Outside coding, you’ll probably catch me doing art, exercising, or learning languages. I’m constantly looking for opportunities to grow and collaborate on exciting projects.
+            </about>
+        </personalInfo>
+
+        <skills>
+            <prog_lang>
+                <program>Java</program>
+                <program>Javascript</program>
+                <program>React</program>
+            </prog_lang>
+            <technical>
+                <tech>Front End Development</tech>
+                <tech>Web Development</tech>
+                <tech>Mobile App Development</tech>
+                <tech>UI/UX Development</tech>
+            </technical>
+            <softskills>
+                <soft>Communication</soft>
+                <soft>Teamwork</soft>
+                <soft>Problem-solving</soft>
+            </softskills>
+        </skills>
+
+        <projects>
+            <project>
+                <title>Revio App</title>
+                <description>A reviewer generator that makes flashcards and summarization of the study materials.</description>
+                <date>2025-11-25</date>
+            </project>
+            <project>
+                <title>Festverse</title>
+                <description>A landing page for Festverse, a company that promotes music festivals.</description>
+                <date>2024-10-01</date>
+            </project>
+            <project>
+                <title>Profile Card</title>
+                <description>A simple profile card, that has my details and my favorite quote.</description>
+                <date>2024-09-21</date>
+            </project>
+        </projects>
+
+        <contact>
+            <personalemail>mariannecbalen@gmail.com</personalemail>
+            <contactnum>+639982260628</contactnum>
+            <socials>
+                <facebook>Marianne Balen</facebook>
+                <github>marianne-yo</github>
+            </socials>
+        </contact>
+    
+    </student>
+</studentPortfolio>
