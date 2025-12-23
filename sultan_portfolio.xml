@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portfolio [
+
+    <!ELEMENT portfolio (basicInfo, aboutMe, technicalSkills, softSkills)>
+    
+    <!ELEMENT basicInfo (phone, email, instagram)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT instagram (#PCDATA)>
+    
+    <!ELEMENT aboutMe (#PCDATA)>
+    
+    <!ELEMENT technicalSkills (skill+)>
+    <!ELEMENT softSkills (skill+)>
+    <!ELEMENT skill (#PCDATA)>
+
+]>
+
+<?xml-stylesheet type="text/xsl" href="sultan_transform.xsl"?>
+
+<portfolio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="sultan_schema.xsd">
+
+    <basicInfo>
+        <phone>0916-270-5735</phone>
+        <email>neshrennn@gmail.com</email>
+        <instagram>shwishwooshnesh</instagram>
+    </basicInfo>
+
+    <aboutMe>
+        Hello! I'm Neshren B. Sultan. I enjoy building web interfaces and solving problems with code.
+        I work with HTML, CSS, JavaScript, and Python to create projects that are both useful and easy to maintain.
+    </aboutMe>
+
+    <technicalSkills>
+        <skill>HTML</skill>
+        <skill>CSS</skill>
+        <skill>JavaScript</skill>
+        <skill>Java</skill>
+        <skill>Python</skill>
+    </technicalSkills>
+
+    <softSkills>
+        <skill>Adaptability</skill>
+        <skill>Communication</skill>
+        <skill>Creativity</skill>
+    </softSkills>
+
+</portfolio>
